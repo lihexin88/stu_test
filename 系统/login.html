@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>登录教务管理系统！</title>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+		<script src="js/login_check.js"></script>
+	</head>
+	<body style="text-align:center">
+		<div>
+		<div id="header"><!-- 头部开始-->
+			<div id="banner"><!-- banner条，背景郑州航院，title“郑州航院考试安排系统”-->
+				<p id = "title_text">教务管理系统</p>
+			</div>
+		</div>
+			<div class="login_input">
+				<form action="login.php" method="post" class="login_windows">
+					<p align="center" class="p_height">账&nbsp;&nbsp;&nbsp;户：
+					  <input name="username" width="150" type="text" id="username" />
+						<span id="txtHint"></span>
+				  </p>
+					<p align="center" class="p_height"> 密&nbsp;&nbsp;&nbsp;码： 
+						<input width="150" name="password" type="password" id="password" />
+					</p>
+					<p align="center" class="p_height">身&nbsp;&nbsp;&nbsp;份：
+						<select style="width: 155px;text-align: center;" name="usertype">
+							<option value="学生">学生</option>
+							<option value="教师">教师</option>
+							<option value="管理员">管理员</option>
+						</select>
+						<p><input style="width: 80px;" type="submit" class="login" value="登录" onClick="check()" /><br /></p>
+					</p>
+				</form>
+			</div>
+			<div></div>
+		</div>
+		<p>&nbsp;</p>
+	</body>
+
+</html>

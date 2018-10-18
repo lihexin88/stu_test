@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+	</head>
+
+	<body>
+		<div class="one_back" id="stu_insert">
+			<br />
+			<p class="one_back_p">插入学生信息</p><br />
+			<form action="insert.php" method="post" style="margin-right: 50px;"><br /> 学号：
+				<input type="number" name="stu_no" /><br /> 班级：
+				<input type="number" name="stu_class" /><br /> 院系：
+				<input type="number" name="fac_no" /><br /> 科目：
+				<input type="text" name="test_course" /><br /> 姓名：
+				<input type="text" name="stu_name" /><br />
+				<input  style="border-radius: 10px;width: 80px;height: 25px; margin-left: 45px;margin-top: 5px;margin-bottom: 5px;" type="submit" name="stu_insert" value="提交" /><br />
+			</form>
+		</div>
+		<br />
+		<div class="one_back" id="select">
+			<br />
+			<p class="one_back_p">学生基本信息</p><br />
+			<form action="select.php" method="post" >
+				<input type="text" name="stu_select_type" id="stu_select_type" value="1" style="display: none;" />
+				<input name="stu_select" id="stu_no" value="" placeholder="学生有关信息" /><br />
+				<input type="submit" style="border-radius: 10px;width: 80px;height: 25px; margin-top: 5px;" value="模糊查询" />
+			</form>
+			<br />
+		</div>
+		<br />
+		<div id="delete" class="one_back">
+			<br />
+			<p class="one_back_p">考试相关信息</p><br />
+			<form action="test_info.php" method="post">
+				<input type="text" name="test_info" id="test_info" required placeholder="请输入考试有关信息" /><br />
+				<input type="submit" style="border-radius: 10px;width: 120px;height: 25px; margin-top: 5px;"  value="学生考试安排查询" />
+				<br /><br />
+			</form>
+		</div>
+	</body>
+
+</html>

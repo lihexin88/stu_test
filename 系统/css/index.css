@@ -1,0 +1,63 @@
+*{
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	background-image: url(../img/bg2.jpg);
+}
+div:hover{
+	background-color: #00FFFF;
+}
+#header{
+	text-align: center;
+	background-color: #F5F5DC;
+	margin-bottom: 5px;
+	
+}
+#title_text{
+	padding: 45px;
+	font-family: "微软雅黑";
+	font-size: 30px;
+}
+#title_text:hover{
+	padding: 45px;
+	font-family: "微软雅黑";
+	font-size: 32px;
+}
+#banner{
+	height: 100px;
+	border-image: url(../img/tiaaamg.jpg);
+	border-image-source: url(../img/tiaaamg.jpg);
+}
+#borders{
+	background-color: #0000CC;
+}
+#mainbody{
+	clear: both;
+	height: 800px;
+	background-color: antiquewhite;
+}
+#leftbar{
+	width: 30%;
+	float: left;
+}
+
+#rightbar{
+	float: right;
+	width: 60%;
+}
+
+#footer{
+	clear: both;
+	background-color: #999988;
+}
+.one_back{
+	border-radius: 10px;
+	border: dotted;
+	border-color: #999988;
+}
+.one_back:hover{
+	border-color: #4B4B4B;
+}
+.one_back_p{
+	color: #0000CC;
+}

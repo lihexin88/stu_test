@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+	</head>
+	<body>
+		<div class="one_back" id="insert">
+			<br />
+			<p class="one_back_p">插入课程信息</p><br />
+			<form style="margin-right: 55px;" action="insert.php" method="post">
+				课程名：<input type="text" name="test_course" required /><br />
+				教师名：<input type="text" name="cors_teacher" required /><br />
+				<input style="border-radius: 10px;width: 80px;height: 25px;margin-left: 50px; margin-top: 5px;" type="submit" name="cors_insert" value="提交" />
+			</form>
+			<br />
+		</div>
+		<br  />
+		<div class="one_back" id="insert">
+		<br />
+			<p class="one_back_p">选课情况查询</p>
+			<form action="select.php" method="post">
+				<input type="text" placeholder="请输入课程名" required name="course_infos" id="" value="" /><br />
+				<input type="submit" style="border-radius: 10px;width: 80px;height: 25px; margin-top: 5px;" value="查询"/>
+			</form>
+		<br />
+			<form action="select.php" method="post">
+				<input type="text" name="course_selecte_type" id="course_selecte_type" value="1" style="display: none;" />
+				<input style="height: 30px;" type="submit" name="cors_insert" value=" 课程信息查询 " />
+			</form>
+		<br />
+		</div>
+		<br />
+		<br />
+		<div class="one_back" id="update">
+		<br /><form action="select.php" method="post">
+				<input style="height: 30px;" type="submit" name="classroom_info"  value=" 教室安排情况查询与修改 " />
+			</form>
+		<br />
+		</div>
+	</body>
+
+</html>

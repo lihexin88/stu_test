@@ -1,0 +1,66 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	text-align:center;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size:16px;
+}
+.stu_display_form{
+	clear: both;
+}
+.stu_display_form input{
+	background-color: #FFFFFF;
+	width: 100%;
+}
+.stu_display_form input:hover{
+	background-color: #DDDDDD;
+}
+.page{
+	clear: all;
+	width: 100%;
+	text-align: left;
+}
+ .page a{
+	 text-decoration:none;
+	 padding:2px 6px;
+	 border:thin #4B4B4B solid;
+	 margin: 2px;
+ }
+ .page span.current{
+	 border:#2239BF 1px solid;
+	 border-radius:5px ;
+	 background-color: #4B4B4B;
+	 padding:4px 6px;
+	 margin:2px;
+	 color:#FFFFFF;
+	 font-weight:bolder;
+ }
+ .page span.disable{
+	 border:#eee 1px solid;
+	 padding:2px 5px;
+	 margin:2px;
+	 color:#DDD;
+ }
+ .content{
+	text-align: center;
+ }
+  .page form{
+	  display:inline;
+  }
+.has_update{
+	background-color: #DDDDDD;
+	color: #0000CC;
+	text-align: center;
+}
+.no_update{
+	text-align: center;
+}
+.has_arrange{
+	background-color: beige;
+	color: #4B4B4B;
+}
+table tr:hover{
+	background-color: #00FFFF;
+}

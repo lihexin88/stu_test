@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+.login_windows{
+	padding-top:10px;
+	border-radius:20px;
+	text-align:center;
+	background-color:#998;
+	margin-left:500px;
+	margin-right:500px;
+	}
+
+.login{
+	border-radius:5px;
+	color: #999988;
+}
+.p_height{
+	line-height:20px;}
+.p_height input{
+	background-color:#FFE;
+}
+.p_height input:hover{
+	background-color:#FFF;
+}
+.title_text{
+	color:#00C;
+	}
+.login_input{
+	clear: both;
+	color: #0000CC;
+}
+
